@@ -1,4 +1,4 @@
-﻿# Building The AI Coding Tool That Actually Works
+# Building The AI Coding Tool That Actually Works
 ### A complete architecture for a multi-agent vibe coding platform — designed to solve every problem the current generation of tools got wrong.
 
 > *"The best tools don't just do the job. They understand the job, remember the job, and protect you while doing it."*
@@ -54,6 +54,12 @@ And underneath all of it, there is a smart **LLM routing system** that sends sma
 **Founders and indie hackers** who need to ship a real, production-grade product fast without paying $200 a month for a tool that forgets everything.
 
 **Anyone who has been burned** by Bolt's token explosions, Lovable's credit loops, Cursor's lack of visual preview, or any other tool that got them halfway there and stopped.
+
+<p align="center">
+  <img src="https://i.ibb.co/svLPyS7N/img-1.png" alt="Current Tools vs This System" width="800"/>
+  <br/>
+  <em>Figure 1 — Current single-model tools compared to the 12-agent architecture of this system.</em>
+</p>
 
 ---
 
@@ -222,9 +228,21 @@ The tools were built to impress in demos. Real projects are not demos.
 
 > **What this means for the architecture in this document:** Every problem listed above has a specific solution built into the system described in the sections that follow. None of them are hand-waved away. Section 3 maps each problem directly to its solution, one by one.
 
+<p align="center">
+  <img src="https://i.ibb.co/yBYzYg36/img-2.png" alt="Problems Across All Tools" width="800"/>
+  <br/>
+  <em>Figure 2 — Universal and unique failure points mapped across all seven tools analysed.</em>
+</p>
+
 ---
 
 ## 3. How Each Problem Is Solved
+
+<p align="center">
+  <img src="https://i.ibb.co/0jZn2Xb4/img-3.png" alt="Every Problem Has An Owner" width="800"/>
+  <br/>
+  <em>Figure 3 — Every identified problem maps directly to a dedicated agent or mechanism.</em>
+</p>
 
 A problem list without solutions is just a complaint. This section closes that gap.
 
@@ -432,6 +450,12 @@ The result is a system that is genuinely faster, not just faster-feeling — bec
 Knowing what the agents are is one thing. Understanding how they work together — in real time, on a real task — is another.
 
 This section is the engine room. It traces the complete journey of a single user action from the moment they type a message to the moment they see output. Every handoff, every gate, every decision point is documented here in order. No steps are skipped or glossed over.
+
+<p align="center">
+  <img src="https://i.ibb.co/JRJ7SGv3/img-4.jpg" alt="The Full Pipeline" width="700"/>
+  <br/>
+  <em>Figure 4 — The complete pipeline from user message to verified output, across all six phases.</em>
+</p>
 
 Read this section and you will understand not just what this system does — but why it is designed the way it is, and what would break if any part of the pipeline were removed.
 
@@ -868,6 +892,12 @@ The Living Feature Tree is a persistent, real-time visual diagram that lives in 
 
 Every feature is a node. Every sub-feature is a branch off its parent. Every dependency between features is a visible connection. The entire project is always visible as a single coherent map.
 
+<p align="center">
+  <img src="https://i.ibb.co/N6QCbcmK/IMG-5.jpg" alt="Feature Tree — Priya's Ceramics" width="600"/>
+  <br/>
+  <em>Figure 5 — The Living Feature Tree as it appears during a real build session, showing node states in real time.</em>
+</p>
+
 ---
 
 #### Node States — What the Tree Tells You at a Glance
@@ -942,6 +972,12 @@ Together, the three innovations produce a system where the right agents do the r
 ---
 
 ## 6. All 12 Agents — Roles, Facilities & Rules
+
+<p align="center">
+  <img src="https://i.ibb.co/WNswYhfc/img-6.png" alt="All 12 Agents — Team Structure" width="800"/>
+  <br/>
+  <em>Figure 6 — The full 12-agent team structure. Security Agent and Audit Agent run continuously at all times.</em>
+</p>
 
 Section 5 explained what the multi-agent team is and why specialization produces better results than a single generalist model. This section documents each agent in full — what it does, what special capabilities it has, and the rules it operates by without exception.
 
@@ -1323,6 +1359,12 @@ Rules are not suggestions. They are the boundaries that make the system trustwor
 ---
 
 ## 7. Why This Beats The Competition
+
+<p align="center">
+  <img src="https://i.ibb.co/6cJ9Tm0T/Img-7.png" alt="Competitor Capability Radar" width="750"/>
+  <br/>
+  <em>Figure 7 — Capability comparison across 8 axes. Each shape represents one tool scored out of 10.</em>
+</p>
 
 Claiming to be better than existing tools is easy. Proving it — failure by failure, gap by gap, with specific evidence — is harder. This section does the harder thing.
 
@@ -1994,6 +2036,12 @@ All previous medium findings from earlier sessions reviewed — image URL valida
 
 **Feature Tree updates.**
 
+<p align="center">
+  <img src="https://i.ibb.co/dJbmwdyL/img-8.png" alt="IDE with Live Feature Tree" width="800"/>
+  <br/>
+  <em>Figure 8 — The Builder writes code while the Feature Tree updates in real time alongside it.</em>
+</p>
+
 ```
 Priya's Ceramics
 ├── ✅ Product Browsing
@@ -2121,6 +2169,12 @@ Across the full build, the pipeline caught or prevented the following — none o
 ---
 
 ## 9. Project Status & What's Next
+
+<p align="center">
+  <img src="https://i.ibb.co/ksDjP6kT/Img-9.png" alt="Build Roadmap — 4 Stages" width="750"/>
+  <br/>
+  <em>Figure 9 — The four-stage build sequence from Core Loop to Full Platform.</em>
+</p>
 
 Eight sections. The problems. The solutions. The twelve agents. The full pipeline. Three core innovations. Seven competitors examined honestly. A complete project built from first message to deployed product.
 
